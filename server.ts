@@ -1,6 +1,6 @@
 import { z } from "https://deno.land/x/zod@v3.20.2/mod.ts";
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
-import { fetchRequestHandler } from "npm:@trpc/server/adapters/fetch";
+import { fetchRequestHandler } from "https://esm.sh/v89/@trpc/server@10.0.0-alpha.22/adapters/fetch";
 import { publicProcedure, router } from "./trpc.ts";
 
 interface Something {
